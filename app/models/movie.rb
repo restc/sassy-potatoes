@@ -1,7 +1,6 @@
 class Movie < ActiveRecord::Base
 
-	def self.sort_collection
-		@sort_collection = Movie.sort_by(params[])
+	def self.get_ratings
+		%w[G PG PG-13 R NC-17]
 	end
-	
 end

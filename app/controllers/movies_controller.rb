@@ -8,7 +8,14 @@ class MoviesController < ApplicationController
 
   def index
     # First, filter Movies by :all, then, :order them by the param :sort from index.html.haml
-    @movies = Movie.find(:all, :order => params[:sort])
+    # Second iteration, filter by selected ratings on the index view, then order them by the selected params
+    
+    if params[:ratings]
+      @selected_ratings = params[:ratings].each_key.to_a
+    end
+    @movies = Movie.find_all_by_rating(@selected_ratings, :order => params[:sort])
+    @all_ratings = Movie.get_ratings
+
   end
 
   def new
