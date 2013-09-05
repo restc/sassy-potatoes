@@ -6,9 +6,9 @@
     %tr
       %th.hilite
         %a#title_header
-          %a= link_to "Movie Title", :sort => "title"
+          %a= link_to "Movie Title", :sort => :title
       %th Rating
-      %th Release Date
+      %th= link_to "Release Date", :sort => :release_date
       %th More Info
   %tbody
     - @movies.each do |movie|
