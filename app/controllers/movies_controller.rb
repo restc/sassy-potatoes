@@ -7,14 +7,42 @@ class MoviesController < ApplicationController
   end
 
   def index
-    # First, filter Movies by :all, then, :order them by the param :sort from index.html.haml
+    # :order filtered :movies by the param :sort from index.html.haml
     # Second iteration, filter by selected ratings on the index view, then order them by the selected params
-    
-    if params[:ratings]
-      @selected_ratings = params[:ratings].each_key.to_a
-    end
-    @movies = Movie.find_all_by_rating(@selected_ratings, :order => params[:sort])
+    # @movies = Movie.find_all_by_rating(params[:ratings].present? : params[:ratings] ? session[:ratings])
+    @movies = Movie.where(:rating => params[:ratings].keys) if params[:ratings].present?
+    # {:& params[:ratings].present? : params[:ratings] ? session[:ratings] }
+      # else
+      #   params[:ratings] = session[:ratings].keys
+
     @all_ratings = Movie.get_ratings
+    @selected_ratings = params[:ratings].present? ? params[:ratings] : []
+
+      # Movie.find_all_by_rating(@ratings, :order => params[:sort])
+    # @movies = case params[:sort] 
+    # when "title" then
+    #   Movie.order("title" ASC)
+    #   if @selected.empty? then
+    #     Movie.order("title" ASC)
+    #   else
+    #     Movie.order(:ratings => @selected_ratings).order("title" ASC)
+    # when "release_date" then
+    #   Movie.order("release_date" ASC)
+    #   if @selected.empty? then
+    #     Movie.order("release_date" ASC)
+    #   else
+    #     Movie.order(:ratings => @selected_ratings).order("release_date" ASC)
+    # else
+    #   Movie.all
+    #   if @selected_ratings.empty? then
+    #     Movie.all
+    #   else
+    #     Movie.where(:rating => @selected_ratings)
+    #   end
+    # end
+    # @hilite = params[:sort]
+
+    # @all_ratings = Movies.get_ratings
 
   end
 

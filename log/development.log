@@ -4078,3 +4078,2609 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 21:16:35 -0700
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-10 09:06:55 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:19: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("title" ASC)
+                             ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:21: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("title" ASC)
+                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order(:ratings => @selected_ratings).order("title" ASC)
+                                                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:24: syntax error, unexpected keyword_then, expecting keyword_end
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:25: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("release_date" ASC)
+                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:27: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("release_date" ASC)
+                                      ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:29: syntax error, unexpected tCONSTANT, expecting ')'
+...tings).order("release_date" ASC)
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-10 09:07:58 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:19: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("title" ASC)
+                             ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:21: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("title" ASC)
+                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order(:ratings => @selected_ratings).order("title" ASC)
+                                                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:24: syntax error, unexpected keyword_then, expecting keyword_end
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:25: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("release_date" ASC)
+                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:27: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("release_date" ASC)
+                                      ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:29: syntax error, unexpected tCONSTANT, expecting ')'
+...tings).order("release_date" ASC)
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-09-10 09:08:02 -0700
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-10 09:08:07 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:19: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("title" ASC)
+                             ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:21: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("title" ASC)
+                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order(:ratings => @selected_ratings).order("title" ASC)
+                                                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:24: syntax error, unexpected keyword_then, expecting keyword_end
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:25: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("release_date" ASC)
+                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:27: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("release_date" ASC)
+                                      ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:29: syntax error, unexpected tCONSTANT, expecting ')'
+...tings).order("release_date" ASC)
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:49:30 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:19: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("title" ASC)
+                             ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:21: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("title" ASC)
+                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:23: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order(:ratings => @selected_ratings).order("title" ASC)
+                                                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:24: syntax error, unexpected keyword_then, expecting keyword_end
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:25: syntax error, unexpected tCONSTANT, expecting ')'
+      Movie.order("release_date" ASC)
+                                    ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:27: syntax error, unexpected tCONSTANT, expecting ')'
+        Movie.order("release_date" ASC)
+                                      ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:29: syntax error, unexpected tCONSTANT, expecting ')'
+...tings).order("release_date" ASC)
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:50:37 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:51:12 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+...s = session[:movie][:ratings] : params[:movie][:rating] ? {}
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:51:21 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':', expecting keyword_end
+...s = session[:movie][:ratings] : params[:movie][:ratings] ? {}
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:14: syntax error, unexpected tIVAR, expecting ':'
+    @selected_ratings = @ratings.keys
+                     ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:52:38 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:41: syntax error, unexpected ':', expecting keyword_end
+    @ratings = params[:ratings] : params[:ratings] ? {}
+                                 ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:43: syntax error, unexpected keyword_end, expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:74: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:52:58 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.1ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:53:20 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:40:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (47.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:53:56 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:40:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:54:10 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:40:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:59:04 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:40:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:59:43 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.6ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 08:59:51 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant MoviesController::Movies):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 09:00:51 -0700
+  Processing by MoviesController#index as HTML
+DEPRECATION WARNING: Calling dynamic finder with less number of arguments than the number of attributes in method name is deprecated and will raise an ArguementError in the next version of Rails. Please passing `nil' to the argument you want it to be nil.
+ (called from index at /home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12)
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL[0m
+Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__645739448'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 09:01:28 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `ratings' for #<Class:0xb37c12f4>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 09:01:42 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__645739448'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 09:05:14 -0700
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (16.6ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 09:05:14 -0700
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:14 -0700
+Served asset /jquery.js - 200 OK (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:14 -0700
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:14 -0700
+Served asset /jquery_ujs.js - 200 OK (13ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=1&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 09:05:20 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"1", "PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 09:05:20 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:20 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:20 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 09:05:20 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:10:18 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:13:43 -0700
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (36.1ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:13:43 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:44 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:13:47 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:13:48 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:48 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:48 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:13:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:14:00 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 28ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:14:00 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:00 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:00 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:14:03 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:14:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:03 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:14:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:19:39 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R') ORDER BY sort[0m
+SQLite3::SQLException: no such column: sort: SELECT "movies".* FROM "movies"  WHERE "movies"."rating" IN ('PG-13', 'R') ORDER BY sort
+Rendered movies/index.html.haml within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: sort: SELECT "movies".* FROM "movies"  WHERE "movies"."rating" IN ('PG-13', 'R') ORDER BY sort):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644239618'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:19:56 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (1.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."order" = 'sort' AND "movies"."rating" IN ('PG-13', 'R')
+SQLite3::SQLException: no such column: movies.order: SELECT "movies".* FROM "movies"  WHERE "movies"."order" = 'sort' AND "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (41.5ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.order: SELECT "movies".* FROM "movies"  WHERE "movies"."order" = 'sort' AND "movies"."rating" IN ('PG-13', 'R')):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644239618'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:20:11 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."sort" = 'ASC' AND "movies"."rating" IN ('PG-13', 'R')[0m
+SQLite3::SQLException: no such column: movies.sort: SELECT "movies".* FROM "movies"  WHERE "movies"."sort" = 'ASC' AND "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.sort: SELECT "movies".* FROM "movies"  WHERE "movies"."sort" = 'ASC' AND "movies"."rating" IN ('PG-13', 'R')):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644239618'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:20:34 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 18ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xb30dd4c4>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:20:51 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."ratings" IS NULL AND "movies"."rating" IN ('PG-13', 'R')
+SQLite3::SQLException: no such column: movies.ratings: SELECT "movies".* FROM "movies"  WHERE "movies"."ratings" IS NULL AND "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: movies.ratings: SELECT "movies".* FROM "movies"  WHERE "movies"."ratings" IS NULL AND "movies"."rating" IN ('PG-13', 'R')):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644239618'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&ratings%5BR%5D=1&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:23 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R') AND ('ratings')[0m
+Rendered movies/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=false&ratings%5BPG-13%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:29 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"false", "PG-13"=>"true"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13') AND ('ratings')
+Rendered movies/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:29 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:29 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:29 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=true&ratings%5BPG-13%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:34 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"true", "PG-13"=>"true"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13') AND ('ratings')[0m
+Rendered movies/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:35 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:35 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=true&ratings%5BPG-13%5D=true&ratings%5BR%5D=false&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:39 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"true", "PG-13"=>"true", "R"=>"false"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R') AND ('ratings')
+Rendered movies/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:39 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:39 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:41 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"true"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('R') AND ('ratings')[0m
+Rendered movies/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:41 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:51 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"true"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('R') AND ('ratings')
+Rendered movies/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:51 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:53 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('R') AND ('ratings')[0m
+Rendered movies/index.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:21:55 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R') AND ('ratings')
+Rendered movies/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:21:55 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:21:55 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:18 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R') AND ('ratings')[0m
+Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:19 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:19 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:19 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:22 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (37.0ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:24 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:24 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:24 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:26 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:26 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:36 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:36 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:36 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:36 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:37 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:37 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:22:42 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:22:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:22:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:23:02 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Rendered movies/index.html.haml within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `keys' for true:TrueClass):
+    5:   Include:
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", rating, @selected_ratings.include?(rating).keys
+    9:   = submit_tag 'Refresh'
+    10: 
+    11: %table#movies
+  app/views/movies/index.html.haml:8:in `block (2 levels) in _app_views_movies_index_html_haml__1008668779__640152398'
+  app/views/movies/index.html.haml:6:in `each'
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml__1008668779__640152398'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml__1008668779__640152398'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:23:24 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `sort' for #<Class:0xb34f663c>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:23:33 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `sort' for #<Class:0xb311d8f8>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:23:42 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 44ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xa1086a0>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:23:49 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `where' for #<Array:0xb3625058>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:26:01 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `where' for #<Array:0xb31606bc>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:26:14 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  app/controllers/movies_controller.rb:13:in `sort'
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:26:23 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Completed 500 Internal Server Error in 9ms
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  app/controllers/movies_controller.rb:13:in `sort_by'
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:26:53 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 16ms
+
+NameError (undefined local variable or method `all_ratings' for #<MoviesController:0xb349d050>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:27:00 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 42ms
+
+NameError (undefined local variable or method `all_ratings' for #<MoviesController:0xb302ddf8>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:27:08 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 22ms
+
+NameError (undefined local variable or method `all_ratings' for #<MoviesController:0xb3704e60>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:31:53 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 20ms
+
+NameError (undefined local variable or method `all_ratings' for #<MoviesController:0xb32db9b0>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:32:05 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `where' for #<Array:0xb39c33e0>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.7ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:32:17 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 15ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xb34e858c>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:32:24 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `sort' for #<Class:0xb30dbc8c>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:32:49 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 8ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xb3b03b38>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:35:04 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (16.7ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:35:04 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:35:04 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:35:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:35:04 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:35:10 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (29.9ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__643108288'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-12 12:35:17 -0700
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:35:17 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__643108288'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:36:24 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `all' for nil:NilClass):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:36:51 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `all_ratings' for nil:NilClass):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:37:07 -0700
+  Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Rendered movies/index.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__643108288'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:38:08 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected tASSOC, expecting keyword_end
+...atings].present? else :rating=> @all_ratings
+...                               ^):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:38:25 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected tASSOC, expecting ')'
+...ovies = Movie.where((:rating => params[:ratings].keys) if pa...
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected modifier_if, expecting ')'
+...ng => params[:ratings].keys) if params[:ratings].present? el...
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected tASSOC, expecting keyword_end
+...tings].present? else :rating => @all_ratings)
+...                               ^):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:38:45 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__643108288'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:50:56 -0700
+  Processing by MoviesController#index as HTML
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Movie without an ID):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:51:13 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 10ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xb3bca74c>):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 12:51:22 -0700
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (9.5ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 12:51:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 12:51:22 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 12:51:22 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 12:51:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:51:27 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `where' for #<Array:0xb3030440>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:51:37 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Movie without an ID):
+  app/controllers/movies_controller.rb:12:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:54:11 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `present' for {"PG"=>"PG", "PG-13"=>"PG-13"}:ActiveSupport::HashWithIndifferentAccess):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:54:24 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL[0m
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `where' for []:Array):
+  app/controllers/movies_controller.rb:14:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:54:30 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL
+Rendered movies/index.html.haml within layouts/application (27.7ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined method `call' for {:rating=>["PG", "PG-13"]}:Hash):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `find'
+  app/views/movies/index.html.haml:21:in `each'
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__643108288'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 12:54:36 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL[0m
+Completed 500 Internal Server Error in 6ms
+
+NoMethodError (undefined method `where' for []:Array):
+  app/controllers/movies_controller.rb:14:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:00:01 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `where' for []:Array):
+  app/controllers/movies_controller.rb:14:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:00:16 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IS NULL[0m
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `where' for []:Array):
+  app/controllers/movies_controller.rb:14:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:00:26 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `where' for #<Array:0xb3fe0084>):
+  app/controllers/movies_controller.rb:14:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:00:32 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 7ms
+
+NoMethodError (undefined method `selected_ratings' for #<Class:0xb36250d0>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:00:51 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Movie without an ID):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 13:01:05 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `find_by' for #<Class:0xb2f95544>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.7ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:24:19 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `find_by' for #<Class:0xb3b03d40>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:25:09 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')[0m
+Rendered movies/index.html.haml within layouts/application (12.0ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 14:25:09 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 14:25:09 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 14:25:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 14:25:09 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:27:42 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')
+Rendered movies/index.html.haml within layouts/application (36.4ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 14:27:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 14:27:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 14:27:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 14:27:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:35:09 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')
+Redirected to 
+Completed 500 Internal Server Error in 39ms
+
+NoMethodError (undefined method `movie_movie_movie_movie_movie_movie_movie_movie_movie_movie_url' for #<MoviesController:0xb3721d58>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:35:30 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')
+Redirected to 
+Completed 500 Internal Server Error in 52ms
+
+NoMethodError (undefined method `movie_movie_movie_movie_movie_movie_movie_movie_movie_movie_url' for #<MoviesController:0xb3149b88>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 8ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:41 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 0ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 0ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 0ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 2ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:35:42 -0700
+  Processing by MoviesController#index as HTML
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 1ms
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:36:11 -0700
+  Processing by MoviesController#index as HTML
+Redirected to 
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `model_name' for ActiveRecord::Relation:Class):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:36:18 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 16ms
+
+NameError (undefined local variable or method `all' for #<MoviesController:0xb349f148>):
+  app/controllers/movies_controller.rb:13:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:36:40 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__645873848'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:37:21 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__642219578'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:37:32 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__645217178'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:38:08 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779_83472930'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.1ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:38:31 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `keys' for false:FalseClass):
+    5:   Include:
+    6:   - @all_ratings.each do |rating|
+    7:     = rating
+    8:     = check_box_tag "ratings[#{rating}]", rating, @selected_ratings.include?(rating).keys
+    9:   = submit_tag 'Refresh'
+    10: 
+    11: %table#movies
+  app/views/movies/index.html.haml:8:in `block (2 levels) in _app_views_movies_index_html_haml__1008668779__641857538'
+  app/views/movies/index.html.haml:6:in `each'
+  app/views/movies/index.html.haml:6:in `block in _app_views_movies_index_html_haml__1008668779__641857538'
+  app/views/movies/index.html.haml:4:in `_app_views_movies_index_html_haml__1008668779__641857538'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:38:36 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644362038'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:47:34 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected tIDENTIFIER, expecting '}'
+...rams[:ratings].keys) {:& params[:ratings].present? : params[...
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected ':'
+...{:& params[:ratings].present? : params[:ratings] ? session[:...
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:13: syntax error, unexpected '}', expecting ':'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:46: syntax error, unexpected keyword_end, expecting '}'
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:77: syntax error, unexpected keyword_end, expecting '}'):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:47:57 -0700
+  Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `keys' for nil:NilClass):
+  app/controllers/movies_controller.rb:16:in `index'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:48:13 -0700
+  Processing by MoviesController#index as HTML
+Rendered movies/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644362038'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.3ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 14:48:46 -0700
+  Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" [0m
+Rendered movies/index.html.haml within layouts/application (9.9ms)
+Completed 200 OK in 23ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 14:48:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:46 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:46 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:48:50 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" 
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')[0m
+Rendered movies/index.html.haml within layouts/application (33.6ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 14:48:50 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 14:48:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 14:49:54 -0700
+
+SyntaxError (/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected ':'
+...ing(params[:ratings].present? : params[:ratings] ? session[:...
+...                               ^
+/home/ubuntu/Documents/sassy-potatoes/app/controllers/movies_controller.rb:12: syntax error, unexpected ')', expecting ':'):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (2.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:06:53 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')
+Rendered movies/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:06:53 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:06:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:06:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:06:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:00 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+Rendered movies/index.html.haml within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    18:       %th= link_to "Release Date", :sort => :release_date
+    19:       %th More Info
+    20:   %tbody
+    21:     - @movies.each do |movie|
+    22:       %tr
+    23:         %td= movie.title 
+    24:         %td= movie.rating
+  app/views/movies/index.html.haml:21:in `_app_views_movies_index_html_haml__1008668779__644362038'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.4ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:06 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13')[0m
+Rendered movies/index.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:07:06 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:10 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13')
+Rendered movies/index.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:07:10 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:10 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:10 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:14 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (13.5ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:07:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:55 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (14.9ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:07:55 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:55 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=true&ratings%5BR%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:07:58 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"true", "R"=>"true"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (11.5ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:07:58 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:58 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:58 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:07:58 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=true&ratings%5BR%5D=true&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:08:11 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"true", "R"=>"true"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (43.9ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:08:11 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:11 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:11 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:08:14 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (8.5ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:08:14 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:08:17 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (10.7ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:08:17 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:17 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:08:17 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:09:22 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:09:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:09:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:09:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:09:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:13:25 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 80ms
+
+ActionView::Template::Error (Could not find table 'sessions'):
+    4:     %title Rotten Potatoes!
+    5:     = stylesheet_link_tag 'application'
+    6:     = javascript_include_tag 'application'
+    7:     = csrf_meta_tags
+    8: 
+    9:   %body
+    10:     %h1.title Rotten Potatoes!
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___943591602__639667858'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:14:59 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (Could not find table 'sessions'):
+    4:     %title Rotten Potatoes!
+    5:     = stylesheet_link_tag 'application'
+    6:     = javascript_include_tag 'application'
+    7:     = csrf_meta_tags
+    8: 
+    9:   %body
+    10:     %h1.title Rotten Potatoes!
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___943591602__639667858'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:21:08 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (Could not find table 'sessions'):
+    4:     %title Rotten Potatoes!
+    5:     = stylesheet_link_tag 'application'
+    6:     = javascript_include_tag 'application'
+    7:     = csrf_meta_tags
+    8: 
+    9:   %body
+    10:     %h1.title Rotten Potatoes!
+  app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___943591602__639667858'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+Migrating to AddSessionsTable (20130912221247)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("sessions")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("sessions")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130912221247')[0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("movies")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("sessions")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_sessions_on_updated_at')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:29:54 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (18.2ms)
+Completed 200 OK in 90ms (Views: 84.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:29:55 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:55 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:29:58 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('PG', 'PG-13', 'R')
+Rendered movies/index.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:29:58 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:58 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:58 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:29:58 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:30:55 -0700
+  Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"G", "PG"=>"PG", "PG-13"=>"PG-13", "R"=>"R"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'R')[0m
+Rendered movies/index.html.haml within layouts/application (13.1ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-12 15:30:55 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-12 15:30:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-12 15:30:55 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-12 15:30:55 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:37:15 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateMovies (20111119180638)
+Migrating to AddSessionsTable (20130912221247)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("movies")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("sessions")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_sessions_on_updated_at')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_sessions_on_session_id')[0m
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:41:55 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=G&ratings%5BPG%5D=PG&ratings%5BPG-13%5D=PG-13&ratings%5BR%5D=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:43:28 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 15:43:43 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2013-09-12 15:46:01 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings[G]=G&ratings[PG]=PG&ratings[PG-13]=PG-13&ratings[R]=R&commit=Refresh" for 127.0.0.1 at 2013-09-12 15:46:09 -0700
+
+ActionController::RoutingError (undefined method `session_store=' for nil:NilClass):
+  app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:1:in `<top (required)>'
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
